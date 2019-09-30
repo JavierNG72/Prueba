@@ -1,0 +1,63 @@
+g
+formacion@DESKTOP-I3BSGFG MINGW64 /c/Dev/Prueba (master)
+$ git add README.md
+
+formacion@DESKTOP-I3BSGFG MINGW64 /c/Dev/Prueba (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   README.md
+
+
+formacion@DESKTOP-I3BSGFG MINGW64 /c/Dev/Prueba (master)
+$ git commit -m "Primer commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <>) not allowed
+
+formacion@DESKTOP-I3BSGFG MINGW64 /c/Dev/Prueba (master)
+$ git config --global user.name "JavierNG"
+
+formacion@DESKTOP-I3BSGFG MINGW64 /c/Dev/Prueba (master)
+$ git config --global user.email "jnoriegog@gmail.com"
+
+formacion@DESKTOP-I3BSGFG MINGW64 /c/Dev/Prueba (master)
+$ git commit -m "Primer commit"
+[master (root-commit) cee5d38] Primer commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+formacion@DESKTOP-I3BSGFG MINGW64 /c/Dev/Prueba (master)
+$ git remote add origin https://github.com/JavierNG72/Prueba.git
+fatal: remote origin already exists.
+
+formacion@DESKTOP-I3BSGFG MINGW64 /c/Dev/Prueba (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 223 bytes | 37.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/JavierNG72/Prueba.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+formacion@DESKTOP-I3BSGFG MINGW64 /c/Dev/Prueba (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean

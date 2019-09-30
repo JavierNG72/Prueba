@@ -1,0 +1,18 @@
+--subir y commitear--
+init/clone
+add
+commit
+push
+
+--bajar--
+pull
+
+--ramas--
+brach
+checkout
+
+--fusiones de ramas--
+merge
+
+--sincronizar
+fetch
